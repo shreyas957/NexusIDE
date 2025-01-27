@@ -12,6 +12,11 @@ spring:
     jdbc:
       dialect: postgresql
 
+logging:
+  level:
+    com:
+      nexuside: TRACE
+
 app:
   database:
     filename: nexusIDE.db
